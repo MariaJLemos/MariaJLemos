@@ -1,4 +1,4 @@
-## Olá, eu sou Maria Júlia Lemos 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Olá,+eu+sou+Maria+Júlia+Lemos!;Bem-vindo(a)+ao+meu+perfil+:D)](https://git.io/typing-svg)
 
 <!--
 **MariaJLemos/MariaJLemos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
