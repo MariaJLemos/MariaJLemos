@@ -1,0 +1,33 @@
+name: Metrics
+on:
+  # Agenda a atualização automática todas as noites às 00:00 UTC
+  schedule: [{cron: "0 0 * * *"}]
+  # Permite que você rode o workflow manualmente sempre que quiser
+  workflow_dispatch:
+  # Roda automaticamente quando você faz um push na branch principal
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Seu token pessoal do GitHub (obrigatório)
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Configurações básicas
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+          
+          # Plugins extras (Opcional: ative se quiser)
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_lines: yes
+
