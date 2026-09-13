@@ -31,3 +31,8 @@ jobs:
           plugin_languages_limit: 8
           plugin_lines: yes
 
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: terminal # 👈 Muda o layout para estilo terminal
+          base: header, activity, community, repositories
