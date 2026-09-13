@@ -23,9 +23,12 @@ Atualmente estou estudando Informática para Internet no IFPE – Campus Paulist
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="60"/>
 
   ###
+
+
+###
+<h1>📊 Minhas estatísticas</h1>
+
 ![Minhas Estatísticas do GitHub](github-metrics.svg)
 
 ###
-###
-
 ###
