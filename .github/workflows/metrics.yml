@@ -17,6 +17,9 @@ jobs:
           user: ${{ github.repository_owner }}
           template: classic
           
+          # 💜 ATIVA O TEMA DRACULA AQUI
+          config_theme: dracula
+          
           # Configurações básicas e plugins (exemplos)
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
