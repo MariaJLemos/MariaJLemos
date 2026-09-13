@@ -19,6 +19,7 @@ jobs:
           
           # 💜 ATIVA O TEMA DRACULA AQUI
           config_theme: dracula
+          config_twotone: no
           
           # Configurações básicas e plugins (exemplos)
           base: header, activity, community, repositories, metadata
